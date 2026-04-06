@@ -259,6 +259,7 @@ h1 {
   font-weight: 500;
   color:#562F00;
   margin:0 0 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2::before {
@@ -282,6 +283,7 @@ h2 {
   margin:40px 0px 12px;
   font-size: 145%;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -627,6 +629,61 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
+  }
+}
+
+.site-nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 1.2em 0 1.8em;
+  border-top: 1px solid #562F00;
+  border-bottom: 1px solid #562F00;
+  padding: 0.5em 0;
+  display: flex;
+  gap: 2em;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #562F00;
+  font-size: 0.95em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  text-decoration: underline;
+}
+
+.page-header {
+  margin-bottom: 0;
+}
+
+.page-header h1 {
+  margin-bottom: 0;
+}
+
+.name-link {
+  text-decoration: none;
+  color: #562F00;
+}
+
+.name-link:hover {
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-nav {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+
+  .site-nav a {
+    color: #ffffff;
+  }
+
+  .name-link {
+    color: #ffffff;
   }
 }
 
