@@ -7,28 +7,22 @@
   <div class="col-sm-12" style="position: relative;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
-      {% if link.abstract %}
-      <div class="abstract" style="margin-top: 10px;">
+      <div style="margin-top: 10px; display: flex; gap: 1.2rem; align-items: baseline;">
+        {% if link.abstract %}
         <details>
-          <summary style="cursor: pointer; color: #FF9644;">Abstract</summary>
+          <summary class="abstract-toggle">Abstract</summary>
           <p style="margin-top: 5px; text-align: justify;">{{ link.abstract }}</p>
         </details>
+        {% endif %}
+        {% if link.pdf %}
+        <a href="{{ link.pdf }}" target="_blank">PDF</a>
+        {% endif %}
+        {% if link.page %}
+        <a href="{{ link.page }}" target="_blank">Project Page</a>
+        {% endif %}
+        {% if link.coverage %}<span>Coverage: {{ link.coverage }}</span>{% endif %}
+        {% if link.others %}{{ link.others }}{% endif %}
       </div>
-      {% endif %}
-    <div class="links" style="margin-top: 10px;">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:1rem;">PDF</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:1rem;">Project Page</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
   </div>
 </div>
 </li>
