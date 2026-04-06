@@ -4,7 +4,7 @@
 
 summary.abstract-toggle {
   cursor: pointer;
-  color: #562F00;
+  color: #111111;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@ summary.abstract-toggle {
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#562F00!important;
+  color:#111111!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -153,7 +153,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#111111;
 }
 
 lightonly {
@@ -179,7 +179,7 @@ papertitle {
     }
 
     body {
-        background-color: #562F00;
+        background-color: #111111;
         color: #ffffff;
     }
 
@@ -251,13 +251,13 @@ papertitle {
 h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 1rem;
-  color:#562F00;
+  color:#111111;
   margin:0 0 20px;
 }
 
 h1 {
-  font-weight: 500;
-  color:#562F00;
+  font-weight: 700;
+  color:#111111;
   margin:0 0 20px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -267,7 +267,7 @@ h2::before {
   display: block;
   width: 1cm;
   height: 2px;
-  background-color: #562F00;
+  background-color: #111111;
   margin: 0 auto 12px auto;
 }
 
@@ -278,12 +278,14 @@ h2::before {
 }
 
 h2 {
-  color:#562F00;
-  font-weight: 500;
-  margin:40px 0px 12px;
-  font-size: 145%;
+  color:#111111;
+  font-weight: 700;
+  margin:40px 0px 32px;
+  font-size: 155%;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -293,7 +295,8 @@ h2 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 32px;
+  line-height: 1.35;
 }
 
 h1, h2, h3 {
@@ -301,11 +304,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:34px;
 }
 
 a {
-  color:#562F00;
+  color:#111111;
   text-decoration:underline;
 }
 
@@ -314,7 +317,7 @@ strong a, .title a, .author a {
 }
 
 a:hover {
-  color:#562F00;
+  color:#111111;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -342,9 +345,10 @@ a:hover small {
 .wrapper {
   max-width:860px;
   margin:0 auto;
-  border: 2px solid #562F00;
+  border: 4px solid #111111;
   padding: 2em 2.5em;
   box-sizing: border-box;
+  position: relative;
 }
 
 blockquote {
@@ -632,27 +636,80 @@ footer {
   }
 }
 
+.header-buttons {
+  position: absolute;
+  top: 2em;
+  right: 2.5em;
+  display: flex;
+  gap: 0.6em;
+}
+
+.header-btn {
+  display: inline-block;
+  background-color: #111111;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.55em 1.1em;
+}
+
+.header-btn:hover {
+  background-color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header-btn {
+    background-color: #ffffff;
+    color: #111111 !important;
+  }
+
+  .header-btn:hover {
+    background-color: #ccc;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-buttons {
+    position: static;
+    margin-bottom: 1em;
+    justify-content: center;
+  }
+}
+
 .site-nav {
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 1.2em 0 1.8em;
-  border-top: 1px solid #562F00;
-  border-bottom: 1px solid #562F00;
-  padding: 0.5em 0;
+  margin: 1.8em 0 3.6em;
+  padding: 0;
   display: flex;
-  gap: 2em;
+  gap: 0;
+  border-bottom: 1px solid #111111;
 }
 
 .site-nav a {
   text-decoration: none;
-  color: #562F00;
-  font-size: 0.95em;
-  letter-spacing: 0.04em;
+  color: #111111;
+  font-size: 0.8em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  padding: 0.5em 1.4em 0.5em 0;
+  margin-right: 1.4em;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  transition: border-color 0.15s ease;
 }
 
-.site-nav a:hover,
+.site-nav a:hover {
+  border-bottom-color: #555;
+}
+
 .site-nav a.active {
-  text-decoration: underline;
+  border-bottom-color: #111111;
+  font-weight: 700;
 }
 
 .page-header {
@@ -665,7 +722,7 @@ footer {
 
 .name-link {
   text-decoration: none;
-  color: #562F00;
+  color: #111111;
 }
 
 .name-link:hover {
@@ -674,12 +731,19 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   .site-nav {
-    border-top-color: #ffffff;
     border-bottom-color: #ffffff;
   }
 
   .site-nav a {
     color: #ffffff;
+  }
+
+  .site-nav a:hover {
+    border-bottom-color: #aaa;
+  }
+
+  .site-nav a.active {
+    border-bottom-color: #ffffff;
   }
 
   .name-link {
