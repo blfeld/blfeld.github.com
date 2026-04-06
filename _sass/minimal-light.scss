@@ -2,6 +2,10 @@
   display: flex; 
   align-items: center;}
 
+.social-icons {
+  text-align:left;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
@@ -230,6 +234,7 @@ papertitle {
     #header .image.avatar {
       margin: 0 0 1em 0;
       width: 8.00em;
+      display: block;
     }
 
 h3, h4, h5, h6 {
@@ -366,7 +371,7 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   padding:4.0em 1.2em 2.0em;
-  text-align:center;
+  text-align:left;
   background-color:#FFCE99;
   min-height:100vh;
   box-sizing:border-box;
