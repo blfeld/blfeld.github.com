@@ -10,7 +10,7 @@
       {% if link.abstract %}
       <div class="abstract" style="margin-top: 10px;">
         <details>
-          <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+          <summary style="cursor: pointer; color: #FF9644;">Abstract</summary>
           <p style="margin-top: 5px; text-align: justify;">{{ link.abstract }}</p>
         </details>
       </div>
