@@ -1,10 +1,10 @@
-<h2 id="Working Paper" style="margin: 2px 0px -15px;">Working Paper</h2>
+<h2 id="Working Paper">Working Paper</h2>
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
 <li>
 <div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-12" style="position: relative;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       {% if link.abstract %}
