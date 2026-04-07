@@ -351,6 +351,12 @@ a:hover small {
   position: relative;
 }
 
+@media (prefers-color-scheme: dark) {
+  .wrapper {
+    border-color: #ffffff;
+  }
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -687,6 +693,7 @@ footer {
   display: flex;
   gap: 0;
   border-bottom: 1px solid #111111;
+  flex-wrap: wrap;
 }
 
 .site-nav a {

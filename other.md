@@ -17,4 +17,4 @@ I have spent my weekends refereeing youth women's and men's football matches for
 
 If you are a student and you end up on this page: please go through the [Consent.Ed training](https://www.lsesu.com/support/funding/sabbaticalofficerandptoprojects/consentedcamp/) if it is at all possible for you. I am no longer part of this effort, but I feel strongly about it.
 
-Consent.Ed is a student-led campaign at LSE that trains students to help create a safe space for everyone on and off campus, free from sexual and gender-based violence. For two years I facilitated workshops bringing together undergraduate and postgraduate students to talk openly about consent and active bystander behaviour. It is important work, and the training is worth your time. 
+Consent.Ed is a student-led campaign at LSE that trains students to help create a safe space for everyone on and off campus, free from sexual and gender-based violence. It brings together undergraduate and postgraduate students to engage openly with consent and active bystander behaviour. It is important work, and the training is worth your time. 
