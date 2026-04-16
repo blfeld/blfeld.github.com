@@ -5,8 +5,8 @@ title: Research
 
 ## Work in Progress
 
-**AI Psychotherapy**
+**AI Against Anxiety: Efficacy, Mechanisms, and Demand for Voice-Based AI Therapy**
 
-**Generative AI and Team Organisation**
+**Generative AI and Team Work**
 
 {% include_relative _includes/publications.md %}
