@@ -12,6 +12,6 @@ I also co-organise the [Economics Applicant Mentoring Programme (AMP)](https://s
 
 ## News
 
-**May 2026** — I will be visiting the Cambridge/Boston area around 8–9 May. Get in touch if you would like to meet.
+**May 2026** — I will be presenting at the NBER Spring Meeting on AI in Healthcare. I will also be in the Cambridge/Boston area around 8–9 May — get in touch if you would like to meet.
 
 **April 2025** — Our working paper *AI-Generated Production Networks: Measurement and Applications to Global Trade* is now available. Head to the [Research]({{ '/research' | relative_url }}) page for the abstract, PDF, and VoxEU coverage.

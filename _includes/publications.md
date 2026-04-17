@@ -21,6 +21,7 @@
         <a href="{{ link.page }}" target="_blank">Project Page</a>
         {% endif %}
         {% if link.coverage %}<span>Coverage: {{ link.coverage }}</span>{% endif %}
+        {% if link.presentations %}<span>Presentations: {{ link.presentations }}</span>{% endif %}
         {% if link.others %}{{ link.others }}{% endif %}
       </div>
   </div>
