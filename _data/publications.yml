@@ -1,7 +1,7 @@
 main:
   - title: "AI-Generated Production Networks: Measurement and Applications to Global Trade"
-    authors: "<a href='https://www.trfetzer.com/'>Thiemo Fetzer</a>, <a href='https://peterjohnlambert.com/'>Peter Lambert</a>, Bennet Feld, and <a href='https://www.prashantgarg.org/'>Prashant Garg</a>"
+    authors: "<a href='https://www.trfetzer.com/' target='_blank'>Thiemo Fetzer</a>, <a href='https://peterjohnlambert.com/' target='_blank'>Peter Lambert</a>, Bennet Feld, and <a href='https://www.prashantgarg.org/' target='_blank'>Prashant Garg</a>"
     abstract: "This paper leverages generative AI to build a network structure over 5,000 product nodes, where directed edges represent input-output relationships in production. We layout a two-step 'build-prune' approach using an ensemble of prompt-tuned generative AI classifications. The 'build' step provides an initial distribution of edge-predictions, the 'prune' step then re-evaluates all edges. With our AI-generated Production Network (AIPNET) in toe, we document a host of shifts in the network position of products and countries during the 21st century. Finally, we study production network spillovers using the natural experiment presented by the 2017 blockade of Qatar. We find strong evidence of such spill-overs, suggestive of on-shoring of critical production. This descriptive and causal evidence demonstrates some of the many research possibilities opened up by our granular measurement of product linkages, including studies of on-shoring, industrial policy, and other recent shifts in global trade."
     pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5050959"
-    coverage: "<a href='https://cepr.org/voxeu/columns/leveraging-ai-navigate-deglobalisation'>VoxEU</a>"
+    coverage: "<a href='https://cepr.org/voxeu/columns/leveraging-ai-navigate-deglobalisation' target='_blank'>VoxEU</a>"
     presentations: "Urban Economics Association European Meeting (Apr 2025), KU Leuven (Jun 2025)"

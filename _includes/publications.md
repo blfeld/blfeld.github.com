@@ -8,12 +8,6 @@
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div style="margin-top: 10px; display: flex; gap: 1.2rem; align-items: baseline;">
-        {% if link.abstract %}
-        <details>
-          <summary class="abstract-toggle">Abstract</summary>
-          <p style="margin-top: 5px; text-align: justify;">{{ link.abstract }}</p>
-        </details>
-        {% endif %}
         {% if link.pdf %}
         <a href="{{ link.pdf }}" target="_blank">PDF</a>
         {% endif %}
@@ -24,6 +18,12 @@
         {% if link.presentations %}<span>Presentations: {{ link.presentations }}</span>{% endif %}
         {% if link.others %}{{ link.others }}{% endif %}
       </div>
+      {% if link.abstract %}
+      <details style="margin-top: 10px;">
+        <summary class="abstract-toggle">Abstract</summary>
+        <p style="margin-top: 5px; text-align: justify;">{{ link.abstract }}</p>
+      </details>
+      {% endif %}
   </div>
 </div>
 </li>
