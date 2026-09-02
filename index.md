@@ -12,4 +12,6 @@ I also co-organise the [Economics Applicant Mentoring Programme (AMP)](https://s
 
 ## News
 
+**September 2026** — Our working paper *Therapy Without the Therapist? Experimental Evidence on Automating a Relational Service* is now on [SSRN](https://ssrn.com/abstract=7061318). Head to the [Research]({{ '/research' | relative_url }}) page for the abstract.
+
 **April 2025** — Our working paper *AI-Generated Production Networks: Measurement and Applications to Global Trade* is now available. Head to the [Research]({{ '/research' | relative_url }}) page for the abstract, PDF, and VoxEU coverage.
