@@ -1,4 +1,4 @@
-<h2 id="Working Paper">Working Paper</h2>
+<h2 id="Working Papers">Working Papers</h2>
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
